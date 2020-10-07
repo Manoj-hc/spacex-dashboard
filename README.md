@@ -1,5 +1,5 @@
 # SpaceX Dashboard
-SpaceX Dashboard built using ReactJS+MobX and SpaceX Public API.
+SpaceX Dashboard built using ReactJS, MobX and SpaceX Public API.
 
 
 ## Installation Steps:
@@ -9,5 +9,5 @@ SpaceX Dashboard built using ReactJS+MobX and SpaceX Public API.
 4. Enjoy!
 
 
-## Alternatively use this link to view the project online.
+## Use this link to view the project online.
 [SpaceX Dashboard](https://spacex-dashboard.netlify.app/)
