@@ -1,0 +1,46 @@
+.ship-container {
+  background-color: #333;
+  padding: 10px 50px;
+}
+
+.overlay-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #f4f4f4;
+  padding: 10px 20px;
+}
+.overlay-container h1 {
+  text-align: center;
+  color: #c4c4c4;
+  text-decoration: underline;
+}
+
+.eachShip {
+  margin: 20px 20px;
+  padding: 10px 20px;
+  border-left: 6px solid #c70039;
+  border-bottom: 6px solid #c70039;
+  border-right: 1px solid #c70039;
+  border-top: 1px solid #c70039;
+  border-radius: 25px;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.spinner-container {
+  width: calc(100vw - 100px);
+  height: calc(100vh - 20px);
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}

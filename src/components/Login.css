@@ -1,0 +1,136 @@
+.loginBody {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background: url(../img/spacex-bg.jpg) center left no-repeat;
+  /* background-color: brown; */
+}
+
+.container {
+  padding: 0px 50px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.logo {
+  width: calc(0.25 * 100vw);
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-right: 5px;
+}
+.logo img {
+  width: 20vw;
+  height: auto;
+}
+
+.loginWindow {
+  width: calc(0.3 * 100vw);
+  height: auto;
+  border: 2px solid #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formElements {
+  width: 80%;
+  height: 100%;
+}
+
+input[type='text'] {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #333;
+}
+input[type='password'] {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #333;
+}
+::-webkit-input-placeholder {
+  /* Edge */
+  color: #333;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #333;
+}
+::placeholder {
+  color: #333;
+}
+
+.buttonClass {
+  width: 100%;
+  display: flex;
+}
+button {
+  width: 170px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  cursor: pointer;
+  display: inline-block;
+  color: #f4f4f4;
+  border: 3px solid #333;
+  background-image: -webkit-linear-gradient(30deg, #333 50%, transparent 50%);
+  background-image: linear-gradient(30deg, #333 50%, transparent 50%);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+button:hover {
+  background-position: 100%;
+  color: #333;
+}
+
+@media all and (max-width: 568px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .logo {
+    width: 300px;
+    height: auto;
+    border: none;
+    padding: 20px;
+    margin-right: 0px;
+  }
+  .logo img {
+    width: 100%;
+    height: auto;
+  }
+
+  .loginWindow {
+    width: 300px;
+    height: auto;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .formElements {
+    width: 60%;
+  }
+
+  .input[type='text'] {
+    width: 20%;
+  }
+}

@@ -1,0 +1,48 @@
+.info-container {
+  padding: 10px 50px;
+  background: url('../img/bg-rocket.jpg') bottom left no-repeat;
+}
+
+.overlay-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #f4f4f4;
+  padding: 10px 20px;
+}
+
+.image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.image-container img {
+  margin: 5px;
+}
+.image-container .mobile-image {
+  display: none;
+}
+
+span {
+  font-weight: 450;
+}
+
+.spinner-container {
+  width: calc(100vw - 100px);
+  height: calc(100vh - 20px);
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.spinner-container {
+  width: calc(100vw - 100px);
+  height: calc(100vh - 20px);
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}

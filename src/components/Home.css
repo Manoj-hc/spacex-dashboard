@@ -1,0 +1,54 @@
+.main-container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.navbar-container {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: #252525;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  border-bottom: 5px solid transparent;
+}
+
+li a:hover {
+  background-color: #000;
+  border-bottom: 5px solid #c70039;
+}
+
+.welcome-msg {
+  padding: 100px;
+  text-align: center;
+  height: 100vh;
+}
+
+@media all and (max-width: 568px) {
+  li a {
+    padding: 2px;
+    text-decoration: underline;
+  }
+  li a:last-child {
+    flex: 0 1 100%;
+  }
+  .welcome-msg {
+    padding: 5px;
+  }
+}
